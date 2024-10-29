@@ -1,5 +1,5 @@
 import express from 'express';
-import { createGenre, deleteGenre, getGenreById, getGenres, updateGenre } from '../controllers/genreController.js';
+import { createGenre, deleteGenre, getGenreById, getGenres, updateGenre } from '../controllers/genrecontroller.js'
 
 const router = express.Router();
 
